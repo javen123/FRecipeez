@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FAC42231BDFC50400E62FE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC42221BDFC50400E62FE0 /* AppDelegate.swift */; };
+		8FAC42251BDFC50400E62FE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC42241BDFC50400E62FE0 /* ViewController.swift */; };
+		8FAC42281BDFC50400E62FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FAC42261BDFC50400E62FE0 /* Main.storyboard */; };
+		8FAC422B1BDFC50400E62FE0 /* FRecipeez.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC42291BDFC50400E62FE0 /* FRecipeez.xcdatamodeld */; };
+		8FAC422D1BDFC50400E62FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FAC422C1BDFC50400E62FE0 /* Assets.xcassets */; };
+		8FAC42301BDFC50400E62FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FAC422E1BDFC50400E62FE0 /* LaunchScreen.storyboard */; };
+		8FAC423B1BDFC50400E62FE0 /* FRecipeezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC423A1BDFC50400E62FE0 /* FRecipeezTests.swift */; };
+		8FAC42461BDFC50400E62FE0 /* FRecipeezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC42451BDFC50400E62FE0 /* FRecipeezUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FAC42371BDFC50400E62FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FAC42171BDFC50400E62FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FAC421E1BDFC50400E62FE0;
+			remoteInfo = FRecipeez;
+		};
+		8FAC42421BDFC50400E62FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FAC42171BDFC50400E62FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FAC421E1BDFC50400E62FE0;
+			remoteInfo = FRecipeez;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FAC421F1BDFC50400E62FE0 /* FRecipeez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRecipeez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FAC42221BDFC50400E62FE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FAC42241BDFC50400E62FE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FAC42271BDFC50400E62FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FAC422A1BDFC50400E62FE0 /* FRecipeez.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FRecipeez.xcdatamodel; sourceTree = "<group>"; };
+		8FAC422C1BDFC50400E62FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FAC422F1BDFC50400E62FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FAC42311BDFC50400E62FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FAC42361BDFC50400E62FE0 /* FRecipeezTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRecipeezTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FAC423A1BDFC50400E62FE0 /* FRecipeezTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRecipeezTests.swift; sourceTree = "<group>"; };
+		8FAC423C1BDFC50400E62FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FAC42411BDFC50400E62FE0 /* FRecipeezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRecipeezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FAC42451BDFC50400E62FE0 /* FRecipeezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRecipeezUITests.swift; sourceTree = "<group>"; };
+		8FAC42471BDFC50400E62FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FAC421C1BDFC50400E62FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FAC42331BDFC50400E62FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FAC423E1BDFC50400E62FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FAC42161BDFC50400E62FE0 = {
+			isa = PBXGroup;
+			children = (
+				8FAC42211BDFC50400E62FE0 /* FRecipeez */,
+				8FAC42391BDFC50400E62FE0 /* FRecipeezTests */,
+				8FAC42441BDFC50400E62FE0 /* FRecipeezUITests */,
+				8FAC42201BDFC50400E62FE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FAC42201BDFC50400E62FE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FAC421F1BDFC50400E62FE0 /* FRecipeez.app */,
+				8FAC42361BDFC50400E62FE0 /* FRecipeezTests.xctest */,
+				8FAC42411BDFC50400E62FE0 /* FRecipeezUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FAC42211BDFC50400E62FE0 /* FRecipeez */ = {
+			isa = PBXGroup;
+			children = (
+				8FAC42221BDFC50400E62FE0 /* AppDelegate.swift */,
+				8FAC42241BDFC50400E62FE0 /* ViewController.swift */,
+				8FAC42261BDFC50400E62FE0 /* Main.storyboard */,
+				8FAC422C1BDFC50400E62FE0 /* Assets.xcassets */,
+				8FAC422E1BDFC50400E62FE0 /* LaunchScreen.storyboard */,
+				8FAC42311BDFC50400E62FE0 /* Info.plist */,
+				8FAC42291BDFC50400E62FE0 /* FRecipeez.xcdatamodeld */,
+			);
+			path = FRecipeez;
+			sourceTree = "<group>";
+		};
+		8FAC42391BDFC50400E62FE0 /* FRecipeezTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FAC423A1BDFC50400E62FE0 /* FRecipeezTests.swift */,
+				8FAC423C1BDFC50400E62FE0 /* Info.plist */,
+			);
+			path = FRecipeezTests;
+			sourceTree = "<group>";
+		};
+		8FAC42441BDFC50400E62FE0 /* FRecipeezUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FAC42451BDFC50400E62FE0 /* FRecipeezUITests.swift */,
+				8FAC42471BDFC50400E62FE0 /* Info.plist */,
+			);
+			path = FRecipeezUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FAC421E1BDFC50400E62FE0 /* FRecipeez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FAC424A1BDFC50400E62FE0 /* Build configuration list for PBXNativeTarget "FRecipeez" */;
+			buildPhases = (
+				8FAC421B1BDFC50400E62FE0 /* Sources */,
+				8FAC421C1BDFC50400E62FE0 /* Frameworks */,
+				8FAC421D1BDFC50400E62FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRecipeez;
+			productName = FRecipeez;
+			productReference = 8FAC421F1BDFC50400E62FE0 /* FRecipeez.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FAC42351BDFC50400E62FE0 /* FRecipeezTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FAC424D1BDFC50400E62FE0 /* Build configuration list for PBXNativeTarget "FRecipeezTests" */;
+			buildPhases = (
+				8FAC42321BDFC50400E62FE0 /* Sources */,
+				8FAC42331BDFC50400E62FE0 /* Frameworks */,
+				8FAC42341BDFC50400E62FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FAC42381BDFC50400E62FE0 /* PBXTargetDependency */,
+			);
+			name = FRecipeezTests;
+			productName = FRecipeezTests;
+			productReference = 8FAC42361BDFC50400E62FE0 /* FRecipeezTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FAC42401BDFC50400E62FE0 /* FRecipeezUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FAC42501BDFC50400E62FE0 /* Build configuration list for PBXNativeTarget "FRecipeezUITests" */;
+			buildPhases = (
+				8FAC423D1BDFC50400E62FE0 /* Sources */,
+				8FAC423E1BDFC50400E62FE0 /* Frameworks */,
+				8FAC423F1BDFC50400E62FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FAC42431BDFC50400E62FE0 /* PBXTargetDependency */,
+			);
+			name = FRecipeezUITests;
+			productName = FRecipeezUITests;
+			productReference = 8FAC42411BDFC50400E62FE0 /* FRecipeezUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FAC42171BDFC50400E62FE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jim Aven";
+				TargetAttributes = {
+					8FAC421E1BDFC50400E62FE0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					8FAC42351BDFC50400E62FE0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8FAC421E1BDFC50400E62FE0;
+					};
+					8FAC42401BDFC50400E62FE0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8FAC421E1BDFC50400E62FE0;
+					};
+				};
+			};
+			buildConfigurationList = 8FAC421A1BDFC50400E62FE0 /* Build configuration list for PBXProject "FRecipeez" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FAC42161BDFC50400E62FE0;
+			productRefGroup = 8FAC42201BDFC50400E62FE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FAC421E1BDFC50400E62FE0 /* FRecipeez */,
+				8FAC42351BDFC50400E62FE0 /* FRecipeezTests */,
+				8FAC42401BDFC50400E62FE0 /* FRecipeezUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FAC421D1BDFC50400E62FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAC42301BDFC50400E62FE0 /* LaunchScreen.storyboard in Resources */,
+				8FAC422D1BDFC50400E62FE0 /* Assets.xcassets in Resources */,
+				8FAC42281BDFC50400E62FE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FAC42341BDFC50400E62FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FAC423F1BDFC50400E62FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FAC421B1BDFC50400E62FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAC42251BDFC50400E62FE0 /* ViewController.swift in Sources */,
+				8FAC422B1BDFC50400E62FE0 /* FRecipeez.xcdatamodeld in Sources */,
+				8FAC42231BDFC50400E62FE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FAC42321BDFC50400E62FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAC423B1BDFC50400E62FE0 /* FRecipeezTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FAC423D1BDFC50400E62FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAC42461BDFC50400E62FE0 /* FRecipeezUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FAC42381BDFC50400E62FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FAC421E1BDFC50400E62FE0 /* FRecipeez */;
+			targetProxy = 8FAC42371BDFC50400E62FE0 /* PBXContainerItemProxy */;
+		};
+		8FAC42431BDFC50400E62FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FAC421E1BDFC50400E62FE0 /* FRecipeez */;
+			targetProxy = 8FAC42421BDFC50400E62FE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FAC42261BDFC50400E62FE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FAC42271BDFC50400E62FE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FAC422E1BDFC50400E62FE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FAC422F1BDFC50400E62FE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FAC42481BDFC50400E62FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FAC42491BDFC50400E62FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FAC424B1BDFC50400E62FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FRecipeez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neva.FRecipeez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FAC424C1BDFC50400E62FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FRecipeez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neva.FRecipeez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FAC424E1BDFC50400E62FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FRecipeezTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neva.FRecipeezTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRecipeez.app/FRecipeez";
+			};
+			name = Debug;
+		};
+		8FAC424F1BDFC50400E62FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FRecipeezTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neva.FRecipeezTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRecipeez.app/FRecipeez";
+			};
+			name = Release;
+		};
+		8FAC42511BDFC50400E62FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FRecipeezUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neva.FRecipeezUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FRecipeez;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8FAC42521BDFC50400E62FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FRecipeezUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neva.FRecipeezUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FRecipeez;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FAC421A1BDFC50400E62FE0 /* Build configuration list for PBXProject "FRecipeez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FAC42481BDFC50400E62FE0 /* Debug */,
+				8FAC42491BDFC50400E62FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FAC424A1BDFC50400E62FE0 /* Build configuration list for PBXNativeTarget "FRecipeez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FAC424B1BDFC50400E62FE0 /* Debug */,
+				8FAC424C1BDFC50400E62FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FAC424D1BDFC50400E62FE0 /* Build configuration list for PBXNativeTarget "FRecipeezTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FAC424E1BDFC50400E62FE0 /* Debug */,
+				8FAC424F1BDFC50400E62FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FAC42501BDFC50400E62FE0 /* Build configuration list for PBXNativeTarget "FRecipeezUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FAC42511BDFC50400E62FE0 /* Debug */,
+				8FAC42521BDFC50400E62FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8FAC42291BDFC50400E62FE0 /* FRecipeez.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8FAC422A1BDFC50400E62FE0 /* FRecipeez.xcdatamodel */,
+			);
+			currentVersion = 8FAC422A1BDFC50400E62FE0 /* FRecipeez.xcdatamodel */;
+			path = FRecipeez.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8FAC42171BDFC50400E62FE0 /* Project object */;
+}
