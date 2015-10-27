@@ -15,6 +15,10 @@
 		8FAC42301BDFC50400E62FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FAC422E1BDFC50400E62FE0 /* LaunchScreen.storyboard */; };
 		8FAC423B1BDFC50400E62FE0 /* FRecipeezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC423A1BDFC50400E62FE0 /* FRecipeezTests.swift */; };
 		8FAC42461BDFC50400E62FE0 /* FRecipeezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC42451BDFC50400E62FE0 /* FRecipeezUITests.swift */; };
+		8FAC42581BDFCD1B00E62FE0 /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC42561BDFCD1B00E62FE0 /* Recipe+CoreDataProperties.swift */; };
+		8FAC42591BDFCD1B00E62FE0 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC42571BDFCD1B00E62FE0 /* Recipe.swift */; };
+		8FAC425B1BDFCE7300E62FE0 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC425A1BDFCE7300E62FE0 /* RecipeCell.swift */; };
+		8FAC425D1BDFD43700E62FE0 /* CreateRecipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC425C1BDFD43700E62FE0 /* CreateRecipeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		8FAC42411BDFC50400E62FE0 /* FRecipeezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRecipeezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FAC42451BDFC50400E62FE0 /* FRecipeezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRecipeezUITests.swift; sourceTree = "<group>"; };
 		8FAC42471BDFC50400E62FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FAC42561BDFCD1B00E62FE0 /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "../Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8FAC42571BDFCD1B00E62FE0 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recipe.swift; path = ../Recipe.swift; sourceTree = "<group>"; };
+		8FAC425A1BDFCE7300E62FE0 /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		8FAC425C1BDFD43700E62FE0 /* CreateRecipeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRecipeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +107,10 @@
 		8FAC42211BDFC50400E62FE0 /* FRecipeez */ = {
 			isa = PBXGroup;
 			children = (
+				8FAC42551BDFCCD600E62FE0 /* Controller */,
+				8FAC42541BDFCCD000E62FE0 /* View */,
+				8FAC42531BDFCCC900E62FE0 /* Model */,
 				8FAC42221BDFC50400E62FE0 /* AppDelegate.swift */,
-				8FAC42241BDFC50400E62FE0 /* ViewController.swift */,
 				8FAC42261BDFC50400E62FE0 /* Main.storyboard */,
 				8FAC422C1BDFC50400E62FE0 /* Assets.xcassets */,
 				8FAC422E1BDFC50400E62FE0 /* LaunchScreen.storyboard */,
@@ -126,6 +136,32 @@
 				8FAC42471BDFC50400E62FE0 /* Info.plist */,
 			);
 			path = FRecipeezUITests;
+			sourceTree = "<group>";
+		};
+		8FAC42531BDFCCC900E62FE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8FAC42561BDFCD1B00E62FE0 /* Recipe+CoreDataProperties.swift */,
+				8FAC42571BDFCD1B00E62FE0 /* Recipe.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8FAC42541BDFCCD000E62FE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FAC425A1BDFCE7300E62FE0 /* RecipeCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8FAC42551BDFCCD600E62FE0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FAC42241BDFC50400E62FE0 /* ViewController.swift */,
+				8FAC425C1BDFD43700E62FE0 /* CreateRecipeVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +296,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FAC42251BDFC50400E62FE0 /* ViewController.swift in Sources */,
+				8FAC42581BDFCD1B00E62FE0 /* Recipe+CoreDataProperties.swift in Sources */,
 				8FAC422B1BDFC50400E62FE0 /* FRecipeez.xcdatamodeld in Sources */,
+				8FAC425B1BDFCE7300E62FE0 /* RecipeCell.swift in Sources */,
+				8FAC425D1BDFD43700E62FE0 /* CreateRecipeVC.swift in Sources */,
 				8FAC42231BDFC50400E62FE0 /* AppDelegate.swift in Sources */,
+				8FAC42591BDFCD1B00E62FE0 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FRecipeez/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.neva.FRecipeez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FRecipeez/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.neva.FRecipeez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
